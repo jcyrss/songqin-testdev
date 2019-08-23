@@ -7,7 +7,6 @@
 #### 请求语法
 ```java
 POST /api/mgr/sq_mgr/ HTTP/1.1
-Host:           restapi-teach.com
 Content-Type:   application/x-www-form-urlencoded
 ```
 
@@ -40,10 +39,11 @@ Content-Type: application/json
 Content-Type	必填 	正常情况下该值将被设为application/json，表示返回 JSON 格式的文本信息。
 
 ##### 响应内容
-如果请求成功，返回json格式的消息体，如下所示，retcode值为0表示添加成功
+如果请求成功，返回json格式的消息体，如下所示，retcode值为0表示添加成功，id是新加课程对应的ID号
 ```json
 {
     "retcode": 0
+    "id" : 1212
 }
 ```
 
@@ -67,7 +67,6 @@ Content-Type	必填 	正常情况下该值将被设为application/json，表示�
 #### 请求语法
 ```java
 GET /api/mgr/sq_mgr/?action=list_course&pagenum=1&pagesize=20 HTTP/1.1
-Host:           restapi-teach.com
 ```
 
 ##### url请求参数
@@ -140,7 +139,6 @@ retlist的内容是一个数组，其中每个元素对应一门课程信息。
 #### 请求语法
 ```java
 PUT /api/mgr/sq_mgr/ HTTP/1.1
-Host:           restapi-teach.com
 Content-Type:   application/x-www-form-urlencoded
 ```
 
@@ -188,7 +186,6 @@ Content-Type	正常情况下该值将被设为application/json，表示返回 JS
 #### 请求语法
 ```java
 DELETE /api/mgr/sq_mgr/ HTTP/1.1
-Host:           restapi-teach.com
 Content-Type:   application/x-www-form-urlencoded
 ```
 
@@ -230,7 +227,6 @@ Content-Type	正常情况下该值将被设为application/json，表示返回 JS
 #### 请求语法
 ```java
 POST /apijson/mgr/sq_mgr/ HTTP/1.1
-Host:           restapi-teach.com
 Content-Type:   application/json
 ```
 
