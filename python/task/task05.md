@@ -2,7 +2,7 @@
 
 
 
-现有一个数据库记录文件（见附件[0005_1.txt](https://raw.githubusercontent.com/jcyrss/songqin-testdev/master/python/task/attachs/0005_1.txt)），保存了学生课程签到的数据库记录。 内容格式如下 ，
+现有一个数据库记录文件（见附件[0005_1.txt](https://github.com/jcyrss/baiyueheiyu/files/4509555/0005_1.txt)），保存了学生课程签到的数据库记录。 内容格式如下 ，
 
 
 
